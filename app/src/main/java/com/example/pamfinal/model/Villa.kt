@@ -1,8 +1,16 @@
 package com.example.pamfinal.model
 
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class Villa(
-    val id_villa: Int,          // ID unik untuk villa
-    val nama_villa: String,     // Nama villa
-    val alamat: String,         // Alamat villa
-    val Kamar_tersedia: Int     // Jumlah kamar yang tersedia
+    @SerialName("id_villa")
+    val idVilla: Int,
+    @SerialName("nama_villa")// ID unik untuk villa
+    val namaVilla: String,     // Nama villa
+    @SerialName("alamat")
+    val alamatVilla: String,         // Alamat villa
+    @SerialName("Kamar_tersedia")
+    val KamarTersedia: Int     // Jumlah kamar yang tersedia
 )
