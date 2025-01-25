@@ -1,7 +1,14 @@
 package com.example.pamfinal.model
 
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class Pelanggan(
-    val id_pelanggan: Int,      // ID unik untuk pelanggan
-    val nama_pelanggan: String, // Nama pelanggan
-    val No_hp: String           // Nomor handphone pelanggan
+    @SerialName("id_pelanggan")
+    val idPelanggan: Int,
+    @SerialName("nama_pelanggan") // ID unik untuk pelanggan
+    val namaPelanggan: String,
+    @SerialName("No_hp")    // Nama pelanggan
+    val noHp: String           // Nomor handphone pelanggan
 )
