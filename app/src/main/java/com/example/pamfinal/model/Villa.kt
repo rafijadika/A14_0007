@@ -6,11 +6,11 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class Villa(
     @SerialName("id_villa")
-    val idVilla: Int,
-    @SerialName("nama_villa")// ID unik untuk villa
-    val namaVilla: String,     // Nama villa
+    val idVilla: Int, // Ubah ke Int
+    @SerialName("nama_villa")
+    val namaVilla: String,
     @SerialName("alamat")
-    val alamatVilla: String,         // Alamat villa
+    val alamatVilla: String,
     @SerialName("Kamar_tersedia")
-    val KamarTersedia: Int     // Jumlah kamar yang tersedia
+    val KamarTersedia: Int // Ubah ke Int
 )

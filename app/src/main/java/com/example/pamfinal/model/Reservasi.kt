@@ -10,9 +10,11 @@ data class Reservasi(
     @SerialName("id_villa")
     val idVilla: Int,          // ID villa yang direservasi
     @SerialName("id_pelanggan")
-    val idPelanggan: Int,      // ID pelanggan yang melakukan reservasi
-    val CheckIn: String,       // Tanggal check-in (format: "yyyy-MM-dd")
+    val idPelanggan: Int,
+    @SerialName("Check_in")// ID pelanggan yang melakukan reservasi
+    val CheckIn: String,
+    @SerialName("Check_out")// Tanggal check-in (format: "yyyy-MM-dd")
     val CheckOut: String,      // Tanggal check-out (format: "yyyy-MM-dd")
-    @SerialName("jumlah_kamar")
+    @SerialName("Jumlah_kamar")
     val JumlahKamar: Int       // Jumlah kamar yang dipesan
 )

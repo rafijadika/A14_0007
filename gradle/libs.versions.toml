@@ -14,6 +14,12 @@ coil-compose = "2.4.0"
 kotlinx-serialization-json = "1.5.1"
 androidx-lifecycle-viewmodel-compose = "2.6.2"
 androidx-navigation-compose = "2.7.3"
+firebase-appdistribution-gradle = "5.1.0"
+monitor = "1.6.1"
+runner = "1.5.2"
+foundation-android = "1.5.1"
+foundation-layout-android = "1.5.1"
+runtime-livedata = "1.7.6"
 
 [libraries]
 androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
@@ -38,6 +44,12 @@ coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil-compose
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
 androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle-viewmodel-compose" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "androidx-navigation-compose" }
+firebase-appdistribution-gradle = { group = "com.google.firebase", name = "firebase-appdistribution-gradle", version.ref = "firebase-appdistribution-gradle" }
+androidx-monitor = { group = "androidx.test", name = "monitor", version.ref = "monitor" }
+androidx-runner = { group = "androidx.test", name = "runner", version.ref = "runner" }
+androidx-foundation-android = { group = "androidx.compose.foundation", name = "foundation-android", version.ref = "foundation-android" }
+androidx-foundation-layout-android = { group = "androidx.compose.foundation", name = "foundation-layout-android", version.ref = "foundation-layout-android" }
+androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "runtime-livedata" }
 
 [plugins]
 android-application = { id = "com.android.application", version = "8.2.0" }
