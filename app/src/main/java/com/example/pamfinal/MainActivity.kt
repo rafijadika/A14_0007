@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.pamfinal.ui.navigation.ReservasiVillaApp
+import com.example.pamfinal.ui.navigation.PengelolaHalaman
 import com.example.pamfinal.ui.theme.PamFinalTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             PamFinalTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    ReservasiVillaApp(
+                    PengelolaHalaman(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
